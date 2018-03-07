@@ -1,0 +1,312 @@
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: #f5f6fa;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*PARALLAX 0*/
+.parallax0 {
+    background-image: url(image/man.jpeg);
+    min-height: 500px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 0px 10px 0px;
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    margin: -10px 0px 0px 0px;
+    /*background-color: rgba(255, 255, 255, 0.3);*/
+    z-index: 100;
+}
+
+nav a {
+    font-size: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 0px 110px;
+    font-size: 20px;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #fa8231;
+}
+
+.nb {
+    margin: 20px 0px 20px 20px;
+}
+
+.gtitre {
+    color: whitesmoke;
+    margin: 250px 0px 0px 800px;
+    font-size: 150px;
+    text-align: center;
+}
+
+.cdm {
+    color: #fa8231;
+    margin: 10px 0px 250px 1015px;
+    font-size: 30px;
+}
+
+
+/*PARALLAX 1*/
+.parallax1 {
+    background-color: #0C0B0B;
+    min-height: 500px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 0px 10px 0px;
+    color: whitesmoke;
+}
+
+.titre1 {
+    color: #FCFCFC;
+    margin: 100px 0px 0px 0px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.block {
+    display: flex;
+    margin: 80px 50px;
+    padding: 0px 100px;
+    font-size: 20px;
+}
+
+.block1 {
+    margin: 0px 80px;
+}
+
+.gras {
+    font-weight: 900;
+    color: #fa8231;
+}
+
+.center {
+    text-align: center;
+    padding: 0px 0px;
+    color: #fa8231;
+    font-weight: 900;
+}
+
+.italic {
+    text-align: center;
+}
+
+/*PARALLAX 2*/
+.parallax2 {
+    background-color: #0C0B0B;
+    min-height: 500px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 0px 10px 0px;
+    color: whitesmoke;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+      padding: 20px 90px;      
+  }
+
+.container {
+    margin: -50px 0px 50px 0px;
+}
+
+/*PARALLAX 3*/
+.parallax3 {
+    background-image: url(image/woman_fitness_muscular_instructor_workout-11766.jpg!d.jpeg);
+    min-height: 500px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 0px 10px 0px;
+    color: whitesmoke;
+}
+
+.titre3 {
+    color: #FCFCFC;
+    margin: 100px 400px 100px 0px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.acti {
+    font-size: 20px;
+    color: #fa8231;
+    font-weight: 900;
+    text-align: center;
+    margin: 0px 0px 0px 20px;
+}
+
+.act {
+    font-weight: 900;
+    margin: 0px 0px 0px 50px;
+}
+
+.part {
+    display: flex;
+    margin: 50px 250px 50px -80px;
+    padding: 0px 110px;
+}
+
+.part1 {
+    padding: 0px 30px 0px 0px;
+}
+
+/*PARALLAX 4*/
+.parallax4 {
+    background-color: #0C0B0B;
+    min-height: 500px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 0px 10px 0px;
+    color: whitesmoke;
+}
+
+.formules {
+    display: grid;
+    margin: 50px 0px;
+}
+
+.hovereffect {
+    width: 180%;
+    height: 130%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+    margin: 20px 0px 20px 400px;
+  }
+  
+.hovereffect .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+  
+.hovereffect:hover .overlay {
+    background-color: rgba(170,170,170,0.4);
+  }
+  
+.hovereffect h2, .hovereffect img {
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+  
+.hovereffect img {
+    display: block;
+    position: relative;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  
+.hovereffect:hover img {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  
+.hovereffect h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 25px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+.hovereffect a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #fff;
+    margin: 30px 0 0 0;
+    background-color: transparent;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    font-weight: normal;
+    height: 85%;
+    width: 85%;
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    padding: 70px;
+  }
+  
+.hovereffect:hover a.info {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    background-color: rgba(0,0,0,0.4);
+  }
+
+.info {
+    font-size: 20px;
+}
+
+.prix {
+    font-size: 40px;
+    color: #fa8231;
+}
+
+
+
+/*FOOTER*/
+footer {
+    width: 100%;
+    position: absolute;
+    background-color: #0C0B0B;
+}
+
+.foo {
+    display: flex;
+}
+
+.fst {
+    color: #fa8231;
+}
+
+.logo {
+    margin: -20px 0px 20px 250px;
+}
+
+.social {
+    margin: 10px 0px 0px 500px;
+}
+
+.social a{
+    margin: 0px 10px;
+}
